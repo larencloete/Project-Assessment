@@ -16,7 +16,7 @@
             <Entry Placeholder="Confirm Password" IsPassword="True"/>
 
             <Button Text="Sign up" TextColor="Black"
-                BackgroundColor="##ff77D065" CornerRadius="20"/>
+                BackgroundColor="#FFEEE8AA" CornerRadius="20"/>
 
 
         </StackLayout>
@@ -34,9 +34,9 @@
 
             <Button Text="Log in" TextColor="Black"
 
-                BackgroundColor="##ff77D065" CornerRadius="20"/>
-
-
+                BackgroundColor="MistyRose" CornerRadius="20"  
+                    />
+            <Button Text="kir" Opacity="80"/>
         </StackLayout>
 
 

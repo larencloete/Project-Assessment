@@ -24,7 +24,9 @@ namespace SOS
             InitializeComponent();
 
             await NavigationService.NavigateAsync("NavigationPage/PrismTabbedPage1");
+
         }
+
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
