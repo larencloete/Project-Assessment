@@ -6,9 +6,9 @@ using System.Linq;
 
 namespace SOS.ViewModels
 {
-    public class PrismTabbedPage1ViewModel : BindableBase
+    public class SignUpPageViewModel : BindableBase
     {
-        public PrismTabbedPage1ViewModel()
+        public SignUpPageViewModel()
         {
 
         }

@@ -23,8 +23,7 @@ namespace SOS
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/PrismTabbedPage1");
-
+            await NavigationService.NavigateAsync("NavigationPage/SignUpORLogin");
         }
 
 
@@ -32,7 +31,10 @@ namespace SOS
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
-            containerRegistry.RegisterForNavigation<PrismTabbedPage1, PrismTabbedPage1ViewModel>();
+            containerRegistry.RegisterForNavigation<SignUpPage, SignUpPageViewModel>();
+            containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
+            containerRegistry.RegisterForNavigation<SignUpORLogin, SignUpORLoginViewModel>();
+            containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
         }
     }
 }

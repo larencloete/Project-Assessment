@@ -2,9 +2,9 @@
 
 namespace SOS.Views
 {
-    public partial class PrismTabbedPage1 : TabbedPage
+    public partial class HomePage : MasterDetailPage
     {
-        public PrismTabbedPage1()
+        public HomePage()
         {
             InitializeComponent();
         }
